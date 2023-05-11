@@ -1,5 +1,6 @@
 package main
 
+// 常量（只读属性，不允许修改）
 import (
 	"fmt"
 	"math"
