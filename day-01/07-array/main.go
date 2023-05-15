@@ -14,4 +14,13 @@ func main() {
 	for i, v := range arr3 {
 		fmt.Println(i, v)
 	}
+
+	printArray(arr2)
+
+}
+
+func printArray(myArray [3]int) {
+	for i := range myArray {
+		fmt.Println(i)
+	}
 }

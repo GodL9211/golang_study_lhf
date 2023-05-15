@@ -16,6 +16,7 @@ func main() {
 
 	fmt.Println(m, m2, m3)
 	fmt.Println("Traversing map")
+	// 遍历
 	for k, v := range m {
 		fmt.Println(k, v)
 	}
@@ -31,6 +32,7 @@ func main() {
 	fmt.Println("Deleting values")
 	name, ok := m["name"]
 	fmt.Println(name, ok)
+	// 删除
 	delete(m, "name")
 	name, ok = m["name"]
 	fmt.Println(name, ok)
