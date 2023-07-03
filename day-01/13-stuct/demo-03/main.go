@@ -35,4 +35,5 @@ func main() {
 	s.name = "li4"
 	s.sex = "male"
 	s.fly()
+	s.Eat()
 }
